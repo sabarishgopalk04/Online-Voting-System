@@ -1,0 +1,29 @@
+# dependencies
+/node_modules
+
+# build outputs
+/dist
+/build
+
+# environment variables
+.env
+.env.local
+.env.*.local
+
+# system files
+.DS_Store
+Thumbs.db
+
+# editor settings
+.vscode/
+.idea/
+
+# lock files (optional)
+bun.lockb
+
+git init
+git add .
+git commit -m "chore: initialize SwayVote project"
+git branch -M main
+git remote add origin https://github.com/sabarishgopalk04/sway-vote-Comprehensive-online-Voting-System.git
+git push -u origin main
