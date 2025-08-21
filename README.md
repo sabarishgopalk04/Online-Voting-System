@@ -1,73 +1,81 @@
-# Welcome to your Lovable project
+🗳️ SwayVote – Online Voting System
 
-## Project info
+SwayVote is a modern online voting application built with React, TypeScript, Vite, and TailwindCSS.
+It provides a clean, responsive, and user-friendly interface for casting votes securely.
 
-**URL**: https://lovable.dev/projects/f2ba5071-c95a-494d-b2bc-e33a08c79a73
+🚀 Features
 
-## How can I edit this code?
+Simple and intuitive voting interface
 
-There are several ways of editing your application.
+Responsive design with TailwindCSS
 
-**Use Lovable**
+Component-based architecture using React + TypeScript
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f2ba5071-c95a-494d-b2bc-e33a08c79a73) and start prompting.
+Fast development and build process powered by Vite
 
-Changes made via Lovable will be committed automatically to this repo.
+Easily extendable with authentication and backend APIs
 
-**Use your preferred IDE**
+🛠️ Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Frontend: React, TypeScript
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Styling: TailwindCSS, ShadCN UI Components
 
-Follow these steps:
+Bundler: Vite
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+📂 Project Structure
+sway-vote/
+├── public/              # Static assets
+├── src/                 # React source code
+│   ├── components/      # Reusable UI components
+│   ├── App.tsx          # Main app
+│   ├── main.tsx         # Entry point
+│   └── index.css        # Global styles
+├── package.json         # Dependencies & scripts
+├── vite.config.ts       # Vite config
+└── tailwind.config.ts   # Tailwind config
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+📦 Installation & Setup
 
-# Step 3: Install the necessary dependencies.
-npm i
+Clone the repository
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+git clone https://github.com/sabarishgopalk04/Sway-Vote-Comphrehensive-Online-Voting-System.git
+cd sway-vote
+
+
+Install dependencies
+
+npm install
+
+
+Start development server
+
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Build for production
 
-**Use GitHub Codespaces**
+npm run build
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+🔧 Environment Variables
 
-## What technologies are used for this project?
+Create a .env file in the project root and add your environment variables:
 
-This project is built with:
+VITE_API_URL=http://localhost:5000
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
 
-## How can I deploy this project?
+👉 Don’t commit real secrets — add only a .env.example with placeholder values.
 
-Simply open [Lovable](https://lovable.dev/projects/f2ba5071-c95a-494d-b2bc-e33a08c79a73) and click on Share -> Publish.
+📈 Future Improvements
 
-## Can I connect a custom domain to my Lovable project?
+Add user authentication system
 
-Yes, you can!
+Secure vote storage with backend integration
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Real-time results dashboard
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Role-based access (Admin, Voter, etc.)
+
+👨‍💻 Author
+
+Developed by Sabarish Gopal K✨
